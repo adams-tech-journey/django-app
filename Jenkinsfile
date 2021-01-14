@@ -6,6 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'python --version'
+                sh 'cd django-app/'
             }
         }
     }
